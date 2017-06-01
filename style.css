@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700i');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+.site-wrapper {
+    height: 100%;
+}
+
+.page-wrapper {
+    max-height: 100%;
+    overflow-x: hidden;
+    perspective: 1px;
+    perspective-origin: center top;
+    transform-style: preserve-3d;
+}
+
+.header-wrapper {
+    background: url("bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 175px 0px;
+    transform-origin: center top;
+    transform: translateZ(-1px) scale(2);
+    vertical-align: top;
+    width: 100vw;
+}
+
+.header-content .overlay, .parralax-content .overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.header-content h4, .parallax-content h1 {
+    color: #fff;
+    font-size: 36px;
+    position: relative;
+}
+
+.page-content {
+    background: white;
+    transform: translateZ(0);
+    height: 100%;
+    padding: 60px 0px;			
+}
+
+.page-content h1 {
+	font-style: italic;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
