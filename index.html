@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Parallax Header Experiment</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <style>
+        	* {
+			    box-sizing: border-box;
+			    margin: 0;
+			    padding: 0;
+			    border: 0;
+			}
+
+			html, body {
+			    height: 100%;
+			}
+
+			section {
+			    padding: 50px 0px;
+			}
+
+			.site-wrapper {
+			    height: 100%;
+			}
+
+			.page-wrapper {
+			    max-height: 100%;
+			    overflow-x: hidden;
+			    perspective: 1px;
+			    perspective-origin: center top;
+			    transform-style: preserve-3d;
+			}
+
+			.header-wrapper {
+			    background: url("bg.jpg");
+			    background-size: cover;
+			    background-position: center center;
+			    position: relative;
+			    padding: 175px 0px;
+			    transform-origin: center top;
+			    transform: translateZ(-1px) scale(2);
+			    vertical-align: top;
+			    width: 100vw;
+			}
+
+			.header-content .overlay, .parralax-content .overlay {
+			    content: '';
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    width: 100%;
+			    height: 100%;
+			    background-color: rgba(0,0,0,0.5);
+			}
+
+			.header-content h4, .parallax-content h1 {
+			    color: #fff;
+			    font-size: 36px;
+			    position: relative;
+			}
+
+			.page-content {
+			    background: white;
+			    transform: translateZ(0);
+			    height: 100%;
+			    padding: 60px 0px;			}
+        </style>
+    </head>
+    
+    <body>
+		<div class="site-wrapper">
+			<div class="page-wrapper">
+				<div class="header-wrapper">
+					<div class="header-content">
+						<div class="overlay"></div>
+						<div class="container">
+							<h4>This is header title</h4>
+						</div>
+					</div>
+				</div>
+				<div class="page-content">
+					<div class="container">
+						<p>On a hot, late August day sometime in the late 1930s, eight people arrive on a small, isolated island off the Devon coast of England. Each appears to have an invitation tailored to his or her personal circumstances, such as an offer of employment or an unexpected late summer holiday. They are met by Thomas and Ethel Rogers, the butler and cook/housekeeper, who state that their hosts, Mr Ulick Norman Owen and his wife Mrs Una Nancy Owen, whom they have not yet met in person, have not arrived, but left instructions, which strikes all the guests as odd.</p>
+	                    
+	                    <p>A framed copy of a nursery rhyme, "Ten Little Niggers" (called "Ten Little Indians" or "Ten Little Soldiers" in later editions), hangs in every guest's room, and ten figurines sit on the dining room table. After supper, a gramophone (or "phonograph") record is played; it contains a recording that describes each visitor in turn, accuses each of having committed murder but escaping justice, and then asks if any of "the accused" wishes to offer a defence. All but Anthony Marston and Philip Lombard deny the charges, and Miss Brent refuses to discuss the matter with men present.</p>
+	                    
+	                    <p>They discover that none of them actually knows the Owens and conclude that the name "U.N. Owen" is shorthand for "Unknown". In the aftermath of the recording, Marston finishes his drink and immediately dies from cyanide poisoning. The remaining guests notice that one of the ten figurines is now broken, and the nursery rhyme appears to reflect the manner of death ("One choked his little self and then there were nine").</p>
+	                    
+	                    <p>The next morning, Mrs Rogers' corpse is found in her bed; she had died in her sleep from an overdose of chloral hydrate. By lunchtime, General MacArthur is found dead, from a heavy blow to his head. Two more figurines are found to be broken, and again the deaths parallel the rhyme. Miss Brent relates the account of her presumed charge to Vera Claythorne, the only other remaining woman.</p>
+	                    
+	                    <p>A search for "Mr Owen" shows that nobody else is on the island except the remaining seven. The island is a "bare rock" with no hiding places, and no one could have arrived or left; thus, they uncomfortably conclude that any one of the seven remaining persons is the killer. Justice Wargrave leads the group in determining that as of yet, none of them can definitively be ruled out as the murderer. The next morning, Rogers is found dead while chopping wood, and after breakfast, Miss Brent is found dead in the kitchen, where she had been left alone after complaining of feeling unwell; she had been injected with potassium cyanide via a hypodermic needle.</p>
+	                    
+	                    <p>Wargrave then suggests searching all the rooms, and any potentially dangerous items they can think of are locked up. Lombard's gun is missing from his room. When Vera goes upstairs to take a bath, she is shocked by the touch and smell of seaweed left hanging from the ceiling of her room and screams; the remaining guests rush upstairs to her room. Wargrave, however, is still downstairs. The others find him seated, immobile and crudely dressed up in the attire of a judge. Wargrave is examined briefly by Dr Armstrong and pronounced dead from a gunshot to the forehead.</p>
+	                    
+	                    <p>That night, Lombard appears surprised when he finds his gun returned to his room. Blore catches a glimpse of someone leaving the house but loses the trail. He then discovers Armstrong is absent from his room, and the remaining three guests conclude that Armstrong must be the killer. Vera, Blore, and Lombard decide to stay together at all times. In the morning, they unsuccessfully attempt to signal SOS to the mainland from outside by using a mirror and sunlight. Blore then decides to return to the house for food by himself — the others are not hungry — and is killed by a heavy bear-shaped clock statue that is pushed from Vera's window sill, crushing his skull.</p>
+	                    
+	                    <p>Vera and Lombard are now confident that Armstrong is the killer. However, shortly afterwards, the duo come upon Armstrong's body washed up on the beach, which they do not immediately recognize due to decomposition. They realize that Armstrong could not have killed Blore. Panicked, each concludes the other must be the killer, overlooking that neither had the opportunity as they were together on the beach and when they found Blore's body. Quickly regaining her composure, Vera suggests moving the doctor's body past the shore, but this is a pretext. She manages to lift Lombard's gun. When Lombard lunges at her to get it back, she shoots him dead.</p>
+	                    
+	                    <p>She returns to the house in a shaken dreamlike state, relieved to be alive. She finds a noose and chair arranged in her room, and a strong smell of the sea. With visions of her former lover, Hugo, urging her on, in a post-traumatic state, she adjusts the noose and kicks the chair out from under her.</p>
+
+	                    <p>
+	                    	Two Scotland Yard officials are puzzled by the identity of U.N. Owen. Although they can reconstruct the deaths from Marston to Wargrave with the help of the victims' diaries and a coroner's careful report, they are forced to conclude that "U.N. Owen" was one of the victims, but are unable to determine which one. They note that the chair on which Vera stood to hang herself had been set back upright, indicating that someone — presumably the killer — was still alive on the island after her suicide.
+	                    </p>
+					</div>
+				</div>
+			</div>
+		</div>
+    	<script src="jquery.js"></script>
+        <script src="bootstrap.min.js"></script>
+    </body>
+</html>
